@@ -8,7 +8,7 @@
 const int ledPin = LED_BUILTIN;
 int ledState = LOW;
 unsigned long previousMillis = 0;
-const long interval = 2000;
+const long interval = 500;
 const char* hostname = "picow";
 
 void setup() {
